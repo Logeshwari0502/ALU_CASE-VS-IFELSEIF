@@ -182,6 +182,11 @@ We are simulating a verilog design without using any libraries
 
 Click “OK” in the “nclaunch: Open Design Directory” window, as shown in the figure below
 
+![WhatsApp Image 2025-10-25 at 11 48 10_f995e96f](https://github.com/user-attachments/assets/1c9281c9-fc35-4138-9cb5-a3747f843e78)
+
+![WhatsApp Image 2025-10-25 at 11 48 21_69bde0f6](https://github.com/user-attachments/assets/47da50d9-75b3-4dd8-82b0-c69a214d5443)
+
+
 #### Fig 2: Selection of Don’t include any libraries
 An ‘NCLaunch window’ appears as shown in the figure below
 
@@ -190,6 +195,9 @@ Left side, you can see the HDL files. The right side of the window has Worklib a
 Worklib is the directory where all the compiled codes are stored, while Snapshot will have the output of elaboration, which in turn goes for simulation.
 
 To perform the function simulation, the following three steps are involved: Compilation, Elaboration and Simulation.
+![WhatsApp Image 2025-10-25 at 12 19 48_705ee769](https://github.com/user-attachments/assets/73edfcd3-c71e-4a77-ade2-3a224388efcc)
+
+![WhatsApp Image 2025-10-25 at 12 21 00_258c0a8c](https://github.com/user-attachments/assets/8c85378e-ec03-4348-8a28-c13ca2e3e4db)
 
 #### Fig 3: Nclaunch Window
 
@@ -219,6 +227,10 @@ After compilation, it will come under worklib. You can see on the right side win
 select the test bench and compile it. It will come under Worklib. Under Worklib, you can see the module and test bench.
 
 The cds.lib file is an ASCII text file. It defines which libraries are accessible and where they are located. It contains statements that map logical library names to their physical directory paths. For this Design, you will define a library called “worklib”
+![WhatsApp Image 2025-10-25 at 12 25 04_c638212d](https://github.com/user-attachments/assets/fe2ca7a3-58fb-49a6-bae6-5c50e9b1cdd3)
+
+![WhatsApp Image 2025-10-25 at 12 25 13_1533c40b](https://github.com/user-attachments/assets/80bcba6d-bb17-4f15-8b3b-2d260931d3c7)
+
 
 #### Step 2: Elaboration:
 To check the port connections in a hierarchical design
@@ -244,6 +256,10 @@ Outputs: Elaborate database updated in the mapped library if successful, generat
 After elaboration, the file will come under snapshot. Select the test bench and simulate it.
 
 #### Fig 5: Elaboration Launch Option
+![WhatsApp Image 2025-10-25 at 12 26 17_10c8d0a9](https://github.com/user-attachments/assets/924bfaf3-6987-497b-a52a-19bf1860df04)
+
+![WhatsApp Image 2025-10-25 at 12 26 42_e35a0d1c](https://github.com/user-attachments/assets/9e58a2db-0aa2-4818-a274-4ab9d046cb5c)
+
 
 #### Step 3: Simulation:
 – Simulate with the given test vectors over a period of time to observe the output behaviour.
@@ -255,8 +271,16 @@ Outputs: Simulation log file, waveforms for debugging
 Simulations allow dumping design and test bench signals into a waveform
 
 Steps for simulation – Run the simulation command with simulator options
+![WhatsApp Image 2025-10-25 at 12 27 34_fe5af80a](https://github.com/user-attachments/assets/8c508211-62e4-43fa-85b5-4925a72e7f43)
+
+![WhatsApp Image 2025-10-25 at 12 27 44_634a65b7](https://github.com/user-attachments/assets/7f44bd09-a494-4e94-a56f-32af961c5758)
+
 
 #### Fig 6: Design Browser window for simulation
+![WhatsApp Image 2025-10-25 at 12 28 29_9cf326f3](https://github.com/user-attachments/assets/eb4fc2f8-d85b-4be7-b12a-b4582f28fb15)
+
+![WhatsApp Image 2025-10-25 at 12 28 41_1aabe40c](https://github.com/user-attachments/assets/66483005-1b2f-4f6b-9dd5-3423db632627)
+
 
 #### Fig 7: Simulation Waveform Window
 
@@ -265,6 +289,10 @@ Synthesis requires three files as follows,
 ◦ Liberty Files (.lib)
 
 ◦ Verilog/VHDL Files (.v or .vhdl or .vhd)
+![WhatsApp Image 2025-10-25 at 12 29 33_296c5c82](https://github.com/user-attachments/assets/4178fbf6-df9c-4952-9289-21db29832388)
+
+![WhatsApp Image 2025-10-25 at 12 30 42_842afb47](https://github.com/user-attachments/assets/8371f355-bc8d-4bc2-89af-1346c016bb7a)
+
 
 ##### Performing Synthesis
 
@@ -281,12 +309,29 @@ The Liberty files are present in the library path,
 • Genus Script file with .tcl file Extension commands are executed one by one to synthesize the netlist. Or use source run.tcl command in the terminal window to view the netlist, and a log file will be created in the working folder.
 
 #### Fig 8: Synthesis RTL Schematic using case and ifelseif construct
+![WhatsApp Image 2025-10-25 at 12 29 33_e5895df8](https://github.com/user-attachments/assets/83f7b1ec-9dc6-4eee-bfc3-385c3319b019)
+
+![WhatsApp Image 2025-10-25 at 12 30 42_dbd775a4](https://github.com/user-attachments/assets/babdaea7-90fb-41f5-ad77-42f03600232b)
+
 
 #### Fig 9: Area report of case and ifelseif construct
 
+![WhatsApp Image 2025-10-25 at 12 30 27_731474bc](https://github.com/user-attachments/assets/935ceca4-5a36-41fa-9673-3ebcba52ce06)
+
+![WhatsApp Image 2025-10-25 at 12 30 42_fd188653](https://github.com/user-attachments/assets/97b67259-3e92-47bd-a7fb-35e4014c0f98)
+
+
 #### Fig 10: Power Report of case and ifelseif construct
+![WhatsApp Image 2025-10-25 at 12 30 27_81f65f57](https://github.com/user-attachments/assets/bfc7edaa-4431-4d7a-9efd-f869d26e2d1b)
+
+![WhatsApp Image 2025-10-25 at 12 30 52_bc3a9858](https://github.com/user-attachments/assets/b5506efb-6bff-4ebc-b6be-0313fcaafbb2)
+
 
 #### Fig 11: Timing Report of case and ifelseif construct
+![WhatsApp Image 2025-10-25 at 12 30 28_f9f68b40](https://github.com/user-attachments/assets/ca44a222-37c4-46c7-9daf-870f8929470a)
+
+
+![WhatsApp Image 2025-10-25 at 12 30 53_71aa0792](https://github.com/user-attachments/assets/4e910ea1-80aa-4326-8306-1745e5b2d87e)
 
 #### Fig 12: Tabulate Area,Power and Timing Report Comparision of ALU using case and ifelseif construct
 
