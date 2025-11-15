@@ -333,6 +333,9 @@ The Liberty files are present in the library path,
 
 ![WhatsApp Image 2025-10-25 at 12 30 53_71aa0792](https://github.com/user-attachments/assets/4e910ea1-80aa-4326-8306-1745e5b2d87e)
 
+<img width="1140" height="784" alt="image" src="https://github.com/user-attachments/assets/72cb5d2d-675a-4b89-9785-408e8dc7d726" />
+
+
 #### Fig 12: Tabulate Area,Power and Timing Report Comparision of ALU using case and ifelseif construct
 
 ## Result
